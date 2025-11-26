@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: waninoko/hello_server_cicd_test_20251126:IMAGE_TAG
+        image: DOCKER_USERNAME/hello_server_cicd_test_20251126:IMAGE_TAG
         ports:
         - containerPort: 3000
 ---
