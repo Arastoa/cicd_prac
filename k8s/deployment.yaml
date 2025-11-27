@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: my-app
-        image: waninoko/hello_server_cicd_test_20251126:447d54d89b457088d386dada5b2b88a17c2ebaad
+        image: waninoko/hello_server_cicd_test_20251126:7b3a62647e227ed9a43f21aec85e1df927f361d0
         ports:
         - containerPort: 3000
 ---
